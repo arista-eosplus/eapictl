@@ -10,6 +10,8 @@
 #	make check -- manifest checks
 #	make coverage -- run test coverage
 #	make tests -- run all of the tests
+#	make systest -- run system tests only
+#	make unittest -- run unit tests only
 #	make clean -- clean distutils
 #
 ########################################################
@@ -48,8 +50,13 @@ clean:
 sdist: clean
 	$(PYTHON) setup.py sdist
 
-tests:
+tests: unittest systest
+
+unittest:
 	$(PYTHON) -m unittest discover test/unit -v
+
+systest:
+	$(PYTHON) -m unittest discover test/sys -v
 
 coverage:
 	$(COVERAGE) run -m unittest discover test/unit -v
