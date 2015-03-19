@@ -1,5 +1,16 @@
 # Arista eAPI Controller
 
+#### Table of Contents
+
+1. [Overview] (#overview)
+    * [Requirements] (#requirements)
+    * [Known Caveats] (#known-caveats)
+2. [Getting Started] (#getting-started)
+3. [Installation] (#installation)
+4. [Testing] (#testing)
+5. [Contributing] (#contributing)
+6. [License] (#license)
+
 The Arista eAPI Controller is a small untility application that can be used to
 remotely configure and enable eAPI.  By default, all Arista EOS nodes since the
 introduction of eAPI come with eAPI disabled by default.   In order to provide
