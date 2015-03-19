@@ -2,14 +2,14 @@
 
 #### Table of Contents
 
-1. [Overview] (#overview)
-    * [Requirements] (#requirements)
-    * [Known Caveats] (#known-caveats)
-2. [Getting Started] (#getting-started)
-3. [Installation] (#installation)
-4. [Testing] (#testing)
-5. [Contributing] (#contributing)
-6. [License] (#license)
+1. [Overview](#overview)
+    * [Requirements](#requirements)
+    * [Known Caveats](#known-caveats)
+2. [Getting Started](#getting-started)
+3. [Installation](#installation)
+4. [Testing](#testing)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 The Arista eAPI Controller is a small untility application that can be used to
 remotely configure and enable eAPI.  By default, all Arista EOS nodes since the
@@ -25,8 +25,8 @@ through [Github issues](http://github.com/arista-eosplus/eapictl/issues).
 ## Requirements
 
 * Arista EOS 4.12 or later with valid SSH credentials
-* Pytho 2.7
-* Paramiko 
+* Python 2.7
+* Paramiko
 * Python client for eAPI (optional)
 
 ## Known Caveats
@@ -66,7 +66,7 @@ $ eapictl stop 192.168.1.16 --username admin --password mysecret
 The Arista eAPI controller also works with connection profiles configure for
 [Python Client for eAPI](http://github.com/arista-eosplus/pyeapi).  When the
 eapi.conf file is configure (or passed by command line option), eapictl will
-cofigure eAPI per the eapi.conf file. 
+cofigure eAPI per the eapi.conf file.
 
 ```
 $ cat ~/.eapi.conf
@@ -91,7 +91,7 @@ $ eapictl stop veos
 
 # INSTALLATION
 
-The source code for eapictl is provided on Github at 
+The source code for eapictl is provided on Github at
 http://github.com/arista-eosplus/eapictl.  All current development is done in
 the 'develop' branch.  Stable versions for release are tagged in the master
 branch and uploaded to PyPi
