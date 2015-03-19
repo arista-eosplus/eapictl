@@ -1,0 +1,16 @@
+status node
+start node
+stop node
+restart node
+start node --config /path/to/config
+start node --host 192.168.1.16
+start node --username username
+start node -u username
+start node --password password
+start node -p password
+start node --server-port 1234
+start node --transport http
+start node --transport https
+start node --eapi-port 1234
+start node --poll-timeout 1234
+start node --connection-timeout 1234

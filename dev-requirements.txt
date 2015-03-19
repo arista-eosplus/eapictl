@@ -1,0 +1,8 @@
+paramiko
+pyeapi
+pep8
+pyflakes
+check-manifest
+coverage
+coveralls
+mock

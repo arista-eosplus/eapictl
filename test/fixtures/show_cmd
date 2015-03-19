@@ -1,0 +1,16 @@
+Enabled:            Yes
+HTTPS server:       shutdown, set to use port 443
+HTTP server:        running, set to use port 80
+Local HTTP server:  shutdown, no authentication, set to use port 8080
+Unix Socket server: shutdown, no authentication
+VRF:                default
+Hits:               0
+Last hit:           never
+Bytes in:           0
+Bytes out:          0
+Requests:           0
+Commands:           0
+Duration:           0.000 seconds
+URLs
+------------------------------------
+Management1 : http://192.168.1.16:80
