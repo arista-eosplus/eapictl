@@ -5,7 +5,7 @@ python:
 
 install: pip install -r dev-requirements.txt
 
-script: make tests
+script: make unittest
 
 notifications:
   email:
