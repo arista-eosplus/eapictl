@@ -1,5 +1,7 @@
 # Arista eAPI Controller
 
+[![Build Status](https://travis-ci.org/arista-eosplus/eapictl.svg?branch=develop)](https://travis-ci.org/arista-eosplus/eapictl)
+
 #### Table of Contents
 
 1. [Overview](#overview)
