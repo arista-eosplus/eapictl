@@ -1,3 +1,9 @@
+# Repo EOL Notification: June 30th
+This repo will be deleted on the EOL date for the following reasons:
+* No contributions for over 5 years.
+* Functionality no longer required.
+* Uses python 2.7 which is no longer supported.
+
 # Arista eAPI Controller
 
 [![Build Status](https://travis-ci.org/arista-eosplus/eapictl.svg?branch=develop)](https://travis-ci.org/arista-eosplus/eapictl)
